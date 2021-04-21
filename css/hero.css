@@ -7,9 +7,9 @@ body{
 
 header{
 	background: #eb01a5;
-  	background-image: url("https://bit.ly/2QM2O7S");
-  	background-image: url("https://bit.ly/2QM2O7S"), linear-gradient(#eb01a5, #d13531);
-	background-size: 100%;
+  	background-image: url("https://bit.ly/32Dv3IC"), linear-gradient(#eb01a5, #d13531);
+	background-size: auto, cover;
+	background-repeat: no-repeat;
 	background-blend-mode: multiply;
 	background-position: center;
 	max-width: 100%;
@@ -30,7 +30,7 @@ header h1{
 header img{
 	border-radius: 170px;
 	width: 300px;
-	border: 20px solid white;
+	border: 0px solid black;
 }
 
 main{
