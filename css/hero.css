@@ -6,19 +6,25 @@ body{
 }
 
 header{
-	background-color: #d14635;
+	background: #eb01a5;
+  	background-image: url("https://bit.ly/2QM2O7S");
+  	background-image: url("https://bit.ly/2QM2O7S"), linear-gradient(#eb01a5, #d13531);
+	background-size: 100%;
+	background-blend-mode: multiply;
+	background-position: center;
+	max-width: 100%;
 	text-align: center;
 	padding-top: 50px;
 	padding-bottom: 50px;
 }
 
 h1, h2{
-	font-family: 'Press Start 2P', cursive;
+	font-family: 'Knewave', cursive;
 }
 
 header h1{
 	color: white;
-	font-size: 50px;
+	font-size: 70px;
 }
 
 header img{
